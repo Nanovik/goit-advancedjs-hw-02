@@ -52,7 +52,6 @@ function updateTime() {
 
   if (differences > 0) {
     const timerTime = convertMs(differences);
-
     timer.days.textContent = addLeadingZero(timerTime.days);
     timer.hours.textContent = addLeadingZero(timerTime.hours);
     timer.minutes.textContent = addLeadingZero(timerTime.minutes);
